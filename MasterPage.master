@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title> Creating a page </title>
+   <link rel = "stylesheet" type="text/css" href="WEBcss.css">
+ </head>
+ <body style="background-image:url(Images/fb.png)">
+ <header class="raj">
+   <h1>ABOUT INDUSTRY</h1>
+   <p>Brief description</p>
+  </header>
+  <nav>
+   <ul>
+	<li><a href="http://www.artos.in/">ARTOS</a></li>
+	<li><a href="http://www.hindustanpetroleum.com/">HP</a></li>
+	</ul>
+	</nav>
+  <main>
+      <asp:ContentPlaceHolder id="Maincontent1" runat="server">
+
+      </asp:ContentPlaceHolder>
+  </main>
+  
+  <aside>
+  <h2> Be Reporter </h2>
+  <p> If you see news-send text </p>
+   </aside>
+   
+   <footer> 
+   <p> copy rights registered for Anish</p>
+   </footer>   
+	
+ </body>
+ </html>
